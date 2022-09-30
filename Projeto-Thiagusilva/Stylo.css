@@ -4,14 +4,24 @@ body{
     padding: 0px;
     background-image: url(http://pm1.narvii.com/6466/91d0c0edca7d09990f5b212a8b33a10ebe277073_00.jpg);
 }
+header nav a{
+    color: goldenrod;
+}
 h2 {
     color: white;
+
+}
+body .section-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 
 }
 body .box-1{
     width: 500px;
     height: 150px;
-    background: black;
+    background: rgb(89, 89, 240);
     display: flex;
     align-items: center;
     justify-content: center;
