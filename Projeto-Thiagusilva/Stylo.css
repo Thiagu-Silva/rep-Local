@@ -18,6 +18,9 @@ body .section-1 {
     flex-direction: column;
 
 }
+body .section-1 .box-zero{
+    margin-inline: auto;
+}
 body .box-1{
     width: 500px;
     height: 150px;
