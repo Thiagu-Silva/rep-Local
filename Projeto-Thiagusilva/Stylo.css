@@ -1,73 +1,156 @@
-body{
-    background: white   ;
+body {
+    background: white;
     font-size: 20px;
     padding: 0px;
     background-image: url(http://pm1.narvii.com/6466/91d0c0edca7d09990f5b212a8b33a10ebe277073_00.jpg);
 }
-header nav a{
+
+header nav a {
     color: goldenrod;
+    font-size: 15px;
+    text-decoration: none;
 }
+
+h1 {
+    margin-left: 10%;
+
+}
+
 h2 {
     color: white;
 
 }
+
+h2 a {
+    padding-left: 45px;
+}
+
 body .section-1 {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-
+    margin-top: -5%;
 }
-body .section-1 .box-zero{
+
+body .section-1 .box-zero {
     margin-inline: auto;
 }
-body .box-1{
+
+body .box-1 {
     width: 500px;
-    height: 150px;
-    background: rgb(89, 89, 240);
+    height: 80px;
+    background: rgb(119, 7, 20);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15%;
+    margin-inline: auto;
+    margin-top: 1%;
+    border: 5px solid goldenrod
 }
-h4 {color: white;
-     text-transform: capitalize;
-    
+h3{
+    color: red;
+    text-transform: capitalize;
+    margin-left: 39%;
+    padding: 1%;
+    font-size: 45px;
 }
-body .box-1 a {
-    font-size: 15px; text-decoration: none;
-    
-}
-body .box-1 a :hover{
-    text-decoration: underline;
+
+h4 {
+    color: white;
+    text-transform: capitalize;
+    margin-left: 10%;
+
 
 }
-body .box-2{
+
+body .box-1 a {
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+body .box-1 a:hover {
+    text-decoration: underline;
+}
+
+
+body .section-2 .box-2 {
     width: 300px;
     height: 300px;
-background: black;
-margin-left: 35%;
-border-radius: 10%;
-}
-body .section-2 .box-3{
-    width: 400px;
-    height: 400px; background: black;
+    background: black;
+    margin-left: 38%;
+    border-radius: 10%;
+    margin-top: -4%;
+    border: 5px solid white;
 }
 
-body .photo img{
-background-image: url(https://sm.ign.com/ign_pt/news/b/blizzard-m/blizzard-may-one-day-let-alliance-and-horde-play-together-in_xjx2.jpg);
-background-size: 100px;
-width: 400px;
-height: auto;
+body .section-2 .box-2 ul {
+    margin-left: 10%;
+    margin-top: 14%;
+}
 
+body .section-2 .box-2 li {
+    font-size: 20px;
+    text-decoration: none;
 
 }
 
-
-ul a{color: blue;
-margin-left: 15px;
-text-transform: capitalize;
+body .section-2 .box-3 {
+    width: 450px;
+    height: 400px;
+    background: black;
+    margin-top: -23%;
+    margin-left: 66%;
+}
+body .section-2 .box-4{
+    width: 450px;
+    height: 400px;
+    background: black;
+    margin-top: -30%;
+    
+}
+.photo {
+    margin-left: -25%;
 }
 
+body .photo img {
+    background-image: url(https://sm.ign.com/ign_pt/news/b/blizzard-m/blizzard-may-one-day-let-alliance-and-horde-play-together-in_xjx2.jpg);
+    background-size: 100px;
+    width: 430px;
+    margin-left: 456px;
+    height: auto;
+    border: 10px solid black;
 
+}
+body .section-3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-horde img{
+    width:  435px;
+    height: 290px;
+    margin-left: -24%;
+    margin-top: -29%;
+    border: 3px solid white;
+}
+.photo-alli{
+    margin-top: -2%;
+}
 
+.photo-alli img{
+    width: 430px;
+    height: 290px;
+    margin-left: 76%;
+    margin-top: -31%;
+    border: 3px solid white;
+}
+
+ul a {
+    color: blue;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
