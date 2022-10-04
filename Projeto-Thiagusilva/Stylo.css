@@ -46,10 +46,10 @@ body .box-1 {
     justify-content: center;
     border-radius: 15%;
     margin-inline: auto;
-    margin-top: 1%;
     border: 5px solid goldenrod
 }
-h3{
+
+h3 {
     color: red;
     text-transform: capitalize;
     margin-left: 39%;
@@ -104,13 +104,15 @@ body .section-2 .box-3 {
     margin-top: -23%;
     margin-left: 66%;
 }
-body .section-2 .box-4{
+
+body .section-2 .box-4 {
     width: 450px;
     height: 400px;
     background: black;
     margin-top: -30%;
-    
+
 }
+
 .photo {
     margin-left: -25%;
 }
@@ -124,24 +126,27 @@ body .photo img {
     border: 10px solid black;
 
 }
-body .section-3{
+
+body .section-3 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
-.photo-horde img{
-    width:  435px;
+
+.photo-horde img {
+    width: 435px;
     height: 290px;
     margin-left: -24%;
     margin-top: -29%;
     border: 3px solid white;
 }
-.photo-alli{
+
+.photo-alli {
     margin-top: -2%;
 }
 
-.photo-alli img{
+.photo-alli img {
     width: 430px;
     height: 290px;
     margin-left: 76%;
